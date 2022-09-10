@@ -28,7 +28,6 @@ class CurrentWeatherWidget extends StatelessWidget {
         }
       },
       builder: (context,state){
-        WeatherAppCubit cubit=WeatherAppCubit.get(context)..getCurrentWeekWeather();
         return Container(
           width: double.infinity,
           height: double.infinity,
